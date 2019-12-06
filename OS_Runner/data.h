@@ -26,7 +26,7 @@ typedef struct ITEM_DATA {
   itype_t       type;
 } item_t;
 */
-typedef enum TILE_TYPES { WALL = 0, GRND, DOOR } floor_t;
+typedef enum TILE_TYPES { WALL = 0, GRND, DOOR,EXIT } floor_t;
 
 typedef struct GAME_DATA {
   unsigned char width;

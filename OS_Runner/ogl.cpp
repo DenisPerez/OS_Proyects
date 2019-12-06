@@ -92,6 +92,9 @@ namespace opengl
         case DOOR:
           s = (30.0f * 4) / iTexWidth; t = (30.0f * 6) / iTexHeight;
           break;
+        case EXIT:
+          s = (30.0f * 21) / iTexWidth; t = (30.0f * 5) / iTexHeight;
+          break;
         default:
           s = 0.0f; t = 0.0f;
         }
